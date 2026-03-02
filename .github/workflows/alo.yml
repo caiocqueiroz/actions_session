@@ -1,0 +1,11 @@
+name: Workflow de treinamento Caixa
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mande um alo!
+        run: echo "Olá Mundo"
