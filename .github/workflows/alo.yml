@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Mande um alo!
         run: echo "Olá Mundo"
+      - run: ls -l
+      - uses: actions/checkout@v6
+      - run: ls -l
