@@ -3,12 +3,14 @@ name: Triggers and Events Workflow
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
+      - "feat/**" 
     paths:
       = "!docs/**"
   pull_request:
     branches: 
       - main
-      - "feat/*"
   schedule:
     - cron: "* * * * 2" # Every minute of every tuesday
 
