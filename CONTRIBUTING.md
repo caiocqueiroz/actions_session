@@ -6,6 +6,8 @@
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
+## Caio was here
+
 ## Contributions to the Workshop Content
 
 **Please note that the contents of this workshop (`./docs`) were carefuly crafted by the GitHub Team, and as such we are currently not open for direct contributions there.**
