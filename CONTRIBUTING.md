@@ -4,6 +4,8 @@
 [pr]: https://github.com/actions-workshop/actions-workshop/compare
 [issue]: https://github.com/actions-workshop/actions-workshop/issues/new
 
+[github]: https://github.com
+
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
 ## Contributions to the Workshop Content
