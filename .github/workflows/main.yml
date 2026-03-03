@@ -5,9 +5,9 @@ on:
   push:
     branches:
       - main
-      - feat/** 
+      - 'feat/**' 
     paths:
-      - "!docs/**"
+      - '!docs/**'
   pull_request:
     branches: 
       - main
