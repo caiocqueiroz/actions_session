@@ -1,0 +1,16 @@
+name: Triggers and Events Workflow
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "* * * * 2" # Every minute of every tuesday
+
+jobs:
+  os-version:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Get OS Version
+        run: cat /etc/os-release
