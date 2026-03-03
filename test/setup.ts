@@ -3,7 +3,7 @@
  * So we need to provide it here before the test files get loaded / imported to avoid an error on test runs.
  * see source: https://github.com/primer/react/blame/main/src/PageLayout/useStickyPaneHeight.ts#LG132
  * (if the CSS.supports calls are not there anymore, you might be able to remove this file again)
- * Caio was here 2
+ * Caio was here 3
  */
 window.CSS = {
   ...window.CSS,
