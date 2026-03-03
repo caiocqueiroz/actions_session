@@ -1,0 +1,11 @@
+name: repo dispatch
+
+on:
+  repository_dispatch:
+    types: [deploy]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deployment triggered externally!"
